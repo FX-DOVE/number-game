@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+.game-container{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 1rem auto;
+    position: relative;
+}
+.display-container{
+    width: 270px;
+    height: 150px;
+    border: 1px solid black;
+    background-color: rgb(176, 173, 173);
+    margin: 1rem auto;
+    display: flex;
+    position: relative;
+}
+input{
+    width: 80%;
+    padding:  0.5rem 1rem;
+}
+
+.result{
+    width: 100%;
+    font-size: 2rem;
+    position: absolute;
+    bottom: 0;
+    
+    
+}
+#correct{
+    background: green;
+    padding: 3px;
+}
+#wrong{
+    background: red;
+    padding: 3px;
+}
+.result p{
+    display: inline;
+}
+.count-down{
+    font-size: 2rem; 
+    position: absolute;
+    right: 0;
+}
+label{
+   
+    font-size: 10px;
+   
+}
+.displayed{
+    width: 100px;
+    margin: auto;
+    font-size: 2rem;
+    text-align: center;
+   
+}
+
+.btn-container{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+    
+  
+}
+
+.input{
+    
+    margin: auto;
+    font-size: 1rem;
+}
+#check{
+    padding: 0.5rem 3rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    margin: 0.1rem 1rem;
+}
+#reset{
+    
+    background: red;
+        text-transform: uppercase;
+        font-size: 1rem;
+        border-radius: 5px;
+        outline: none;
+        cursor: pointer;
+        outline: none;
+    
+}
